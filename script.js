@@ -17,7 +17,7 @@ var emptyUser = {
 };
 
 function updateProfileBadge() {
-    var user = this.response;
+    var response = JSON.parse(this.responseText);
     if (response.message === "Not Found") {
         updateDomWithUser(emptyUser);
     } else {
