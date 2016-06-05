@@ -1,0 +1,68 @@
+body {
+    background-color:#eeeef0;
+}
+
+.user-input {
+    margin: 20px;
+
+}
+
+.git-profile {
+    color: #444;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    margin: 20px;
+    background-color: white;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 6px 7px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 6px 7px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 6px 7px 0px rbga(0,0,0,0.32);
+}
+
+.git-profile-avatar {
+    color:white;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding:10px;
+}
+
+.git-profile-name, .git-profile-location {
+    margin: 10px;
+}
+
+.git-profile-stats {
+    display:flex;
+    justify-content: space-around;
+}
+
+.git-profile-stat {
+    text-align: center;
+}
+
+.git-profile-stat > span {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+i.icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-size:contain;
+
+}
+
+.github-icon-gist {
+    background-image: url(images/git-gist-icon.png);
+}
+
+.github-icon-repo {
+    background-image: url(images/git-repo-icon.png);
+}
